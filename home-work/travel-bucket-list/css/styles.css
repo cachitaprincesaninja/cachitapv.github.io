@@ -1,6 +1,5 @@
 body {
   font-family: helvetica;
-  background-color: #f3f3f3;
 }
 
 h1 {
@@ -41,7 +40,8 @@ h4 {
 }
 
 .container {
-  width: 99%;
+  background-color: #f3f3f3;
+  width: 75%;
   margin: 0 auto;
   text-align: center;
 }

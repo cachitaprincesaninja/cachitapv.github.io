@@ -1,0 +1,158 @@
+body {
+  font-family: "Lato";
+  color: #444444;
+  line-height: 1.5;
+  font-size: 17px;
+  }
+.container {
+  padding: 35px 115px 0 115px;
+}
+.header h1 a {
+  color: #dd0000;
+  font-size: 55px;
+  float: left;
+  text-decoration: none;
+  font-weight: 500;
+}
+.header h1 a:hover {
+  color: #aa0000;
+}
+h3 {
+  color: gray;
+  font-size: 28px;
+  float: left;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+.article-title {
+  margin-bottom: 14px;
+}
+.header nav {
+  clear: left;
+}
+.header nav a {
+  color: white;
+  background-color: black;
+  font-size: 21px;
+  float: left;
+  text-align: justify;
+  padding: 17px 44px;
+  margin: 0 0.5px;
+  font-weight: 500;
+}
+.header nav a:hover {
+  background: grey;
+}
+a {
+  text-decoration: none;
+  color: #dd0000;
+}
+a:hover {
+  color: #aa0000;
+}
+.article a, .right-column a {
+  font-weight: bold;
+  float: right;
+  margin-bottom: 20px;
+}
+.right-column nav li a {
+  font-weight: normal;
+  font-size: 18px;
+}
+.right-column nav li::before {content: "•"; color: gray;
+  display: inline-block; width: 1em;
+  margin-left: -20.5px;
+}
+main {
+  clear: left;
+  float: left;
+  width: 69%;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0;
+}
+.date {
+  color: #cccccc;
+}
+.article {
+  margin: 55px 0;
+  border-width: 0 0 1px 0;
+  border-color: #cccccc;
+  border-style: solid;
+  padding-bottom: 50px;
+}
+.article img {
+  width: 100%;
+}
+.article p {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.article p:first-letter {
+  color: #dddddd;
+  font-size: 100px;
+  float: left;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+aside {
+  float: right;
+  width: 27%;
+}
+.right-column h4 {
+  padding-top: 55px;
+  font-size: 18px;
+}
+.right-column h4, .right-column p {
+  color: gray;
+}
+.right-column a img {
+  padding: 30px 0;
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-width: 1px 0 1px 0;
+  border-color: #dddddd;
+  border-style: solid;
+}
+.right-column nav li a {
+  float: none;
+} 
+.right-column nav {
+  padding-left: 5px
+} 
+footer {
+  clear: both;
+}
+footer a {
+  margin: 2.5px; 
+  padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

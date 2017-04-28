@@ -1,0 +1,53 @@
+document.write("<!--*\n");
+document.write("var aolAdId=\"8659876|25720292\";\n");
+document.write("var aolSize=\"160|600\";\n");
+document.write("var aolFormat=\"3rdPartyRichMediaRedirect\";\n");
+document.write("var aolGUID=\"1492257067|36312475501520089\";\n");
+document.write("*-->\n");
+document.write("<ins class='dcmads' style='display:inline-block;width:160px;height:600px'\n");
+document.write("data-dcm-placement='N5506.152847.0661777220621/B10647746.144022255'\n");
+document.write("data-dcm-impression-exchange-id='aolO8659876'\n");
+document.write("data-dcm-click-tracker='https%3A//ol.at.atwola.com/adlink%2F5113%2F3769915%2F0%2F154%2FAdId%3D8659876%3BBnId%3D1%3Bitime%3D257067890%3Bkp%3D1380387%3Bnodecode%3Dyes%3Bimpref%3D14922570672157738979%3Bimprefseq%3D36312475501520089%3Bimprefts%3D1492257067%3Badclntid%3D1002%3Blink%3D'\n");
+document.write("data-dcm-rendering-mode='script'\n");
+document.write("data-dcm-https-only\n");
+document.write("data-dcm-resettable-device-id=''\n");
+document.write("data-dcm-app-id=''>\n");
+document.write("<scr"+"ipt src='https://www.googletagservices.com/dcm/dcmads.js'></scr"+"ipt>\n");
+document.write("</ins>\n");
+
+
+
+
+document.write("<!--*\n");
+document.write("var moatClientLevel1=5113\n");
+document.write("var moatClientLevel2=264961\n");
+document.write("var moatClientLevel3=0\n");
+document.write("var moatClientLevel4=3769915\n");
+document.write("var zMoatMaster=8662634\n");
+document.write("var zMoatFlight=8659876\n");
+document.write("var zMoatBanner=25720292\n");
+document.write("var zURL=https\n");
+document.write("var zMoatPlacementId=3769915\n");
+document.write("var zMoatPlacementExtId=93487223\n");
+document.write("var zMoatAdId=8659876\n");
+document.write("var zMoatCreative=0\n");
+document.write("var zMoatBannerID=1\n");
+document.write("var zMoatCustomVisp=0\n");
+document.write("var zMoatCustomVist=0\n");
+document.write("var zMoatIsAdvisGoal=0\n");
+document.write("var zMoatEventUrl=\n");
+document.write("var zMoatSize=154\n");
+document.write("var zMoatSubNetID=1\n");
+document.write("var zMoatisSelected=0\n");
+document.write("var zMoatadServer=ol.at.atwola.com\n");
+document.write("var zMoatadVisServer=\n");
+document.write("var zMoatSamplingRate=23\n");
+document.write("var zMoatliveTestCookie=\n");
+document.write("var zMoatRefSeqId=ZTuLLEgABCA\n");
+document.write("var zMoatImpRefTs=1492257067\n");
+document.write("var zMoatAlias=ovt2usen\n");
+document.write("var zMoatWebsiteID=264961\n");
+document.write("var zMoatVert=\n");
+document.write("var zMoatBannerInfo=479789998\n");
+document.write("*-->\n");
+document.write("<scr"+"ipt src=\""+(window.location.protocol=='https:' ? "https://aka-cdn.adtechus.com" : "http://aka-cdn-ns.adtechus.com")+"/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=264961&moatClientLevel3=0&moatClientLevel4=3769915&zMoatMaster=8662634&zMoatFlight=8659876&zMoatBanner=25720292&zURL=https&zMoatPlacementId=3769915&zMoatAdId=8659876&zMoatCreative=0&zMoatBannerID=1&zMoatCustomVisp=0&zMoatCustomVist=0&zMoatIsAdvisGoal=0&zMoatEventUrl=&zMoatSize=154&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=ol.at.atwola.com&zMoatadVisServer=&zMoatSamplingRate=23&zMoatliveTestCookie=&zMoatRefSeqId=ZTuLLEgABCA&zMoatImpRefTs=1492257067&zMoatAlias=ovt2usen&zMoatVert=&zMoatBannerInfo=479789998\" type=\"text/javascript\"></scr"+"ipt>");

@@ -12,20 +12,33 @@
 // 5: Append a new <tr></tr> to the <tbody id="entries"> containing two <td>'s, one of which contains the new variable: <tr><td></td><td>NEW VALUE</td></tr>
 // 6: Figure out a way to update the number in #total (Hint: look back at the calculator box example)
 // 7: Empty the input in #newEntry (clear it out)
-// BONUS 8: If the user does not enter a number, do not calculate and alert them!
+
 $(document).ready(function () {
-  var total = 0;
-$('#entry').submit(function (event) {
-          event.preventDefault();
+	// 6: keep track of your program's state by defining a total variable
+	var total = 0;
 
-          var newEntry = $('#newEntry').val();
-          newEntry = parseFloat(newEntry);
-          total = total + newEntry;
+	// 1: add .submit to #entry
+	$('#entry').submit(function (event) {
+		// 2: prevent submit's default behavior
+		event.preventDefault();
 
-          $('#entries').append('<tr><td></td><td>$'+newEntry+'</td></tr>');
-          total = total + newEntry;
+		// 3: create a variable, newEntry, to store user input from #newEntry
+		var newEntry = $('#newEntry').val();
 
-          $('#total').text('$' + total);
-          $('#newEntry').val('');
-});
+		// 4: call parseFlot on newEntry to transform it from a string to a number
+		newEntry = parseFloat(newEntry);
+
+		// 5: append a new <tr> to #entries
+		$('#entries').append('<tr><td></td><td>' + newEntry + '</td></tr>');
+
+		// 6: update total variable
+		total = total + newEntry
+
+		// 6 (ctn): update #total element
+		$('#total').text('$' + total)
+
+		// 7: clear #newEntry
+		$('#newEntry').val('')
+	});
+
 })

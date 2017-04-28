@@ -1,0 +1,1 @@
+(function(){"use strict";var n=window.microsoft.createNS("adbar.renderers.UI");n.ADCHOICESGLINK="http://g.msn.com/AIPRIV/en-us?adchc=1"})()

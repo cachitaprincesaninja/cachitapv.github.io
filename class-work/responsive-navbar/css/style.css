@@ -1,0 +1,69 @@
+.container {
+	margin: 0 auto;
+	width: 85%;
+} 
+
+header {
+	background-color: black;
+	overflow: hidden;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+header h1 {
+	font-size: 35px;
+	float: left;
+	color: white;
+}
+
+header nav {
+	float: right;
+	margin-top: 8px;
+}
+
+header nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+#burger {
+	display: none;
+	float: right;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+#mobile-nav {
+	display: none;
+}
+
+#mobile-nav a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	background: rgb(222,222,222);
+	padding: 10px;
+}
+
+#mobile-nav a:hover {
+	background: white;
+}
+
+@media (max-width: 875px) {
+
+	#burger {
+		display: block;
+	}
+
+	#large-nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		font-size: 30px;
+	}
+}

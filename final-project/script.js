@@ -92,4 +92,14 @@ jQuery(document).ready(function ($) {
 
 });    
 
-//header visible on scroll
+//header resize on scroll
+$(window).scroll(function () {
+    var offset = $(window).scrollTop();
+
+    if (offset > 150) {
+      $('#links').addClass('header-offset')
+    } else {
+      $('#links').removeClass('header-offset')
+    }
+  })
+

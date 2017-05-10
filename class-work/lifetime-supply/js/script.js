@@ -19,4 +19,4 @@ document.querySelector('#click-me').onclick = function () {
 document.querySelector('#solution').innerHTML = drinksLeft;
 document.querySelector('#drink').innerHTML = favDrink;
 
-}
+} 

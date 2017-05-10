@@ -120,7 +120,7 @@ p {
 	padding: 3%;
 	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
- 
+
 .blurb {
 	background: rgba(255,255,255,.8);
 	width: 34%;
@@ -156,67 +156,4 @@ footer {
 	background: black;
 	color: white;
 	padding: 2% 3%;
-}
-
-#burger {
-	display: none;
-}
-
-#phone-nav {
- 	display: none;
- }
-
-#phone-nav a {
-	text-align: center;
-	display: block;
-	text-decoration: none;
-	border-bottom: 1px solid black;
-	padding: 10px;
-}
-
-
-@media (max-width: 600px) {
-	h1 {
-		padding-bottom: 28px;
-	}
-
-	#burger {
-		display: block;
-		position: absolute;
-		right: 17px;
-		top: 17px;
-	}
-  
-  #big-nav {
-  	display: none;
-  }
-
-  #phone-nav {
-  	display: block;
-  }
-
-  #phone-nav a {
-  	display: table;
-  	float: none;
-  }
-
-  .tagline {
-  	display:none;
-  }
-	
-	.blurb p {
-		display: none;
-	}
-
-	.wrapper .blurb{
-		width: 60%;
-	}
-
-	.wrapper .tout{
-		float: none;
-		display: block;
-		width: 90%;
-		margin: 0;
-		border: 0;
-	}
 }

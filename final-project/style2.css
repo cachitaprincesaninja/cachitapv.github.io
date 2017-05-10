@@ -34,11 +34,14 @@ width: 100%;
   background: rgba(0,0,0,0.5);
   height: 90px;
   font-size: 45px;
-  padding-top: 20px;
+  padding-top: 60px;
   position: fixed;
   padding-left: 10%;
   width: 100%;
   font-family: 'Press Start 2P', cursive;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  margin: 0px 0 20px 0;
 }
 
 .headernavvar {
@@ -51,8 +54,6 @@ width: 100%;
 }
 
 #links {
-color: red;
-background-color: white;
 display: inline-block;
 font-family: 'Press Start 2P', cursive;
 position: fixed;
@@ -60,7 +61,7 @@ z-index: 1000;
 }
 
 .list nav {
-margin-top: 70px;
+margin-top: 100px;
 }
 
 .list nav ul{
@@ -68,13 +69,13 @@ padding: 8px;
 }
 
 .list nav a{
-color: darkgrey;
+color: rgba(153, 136, 189,0.8);
 text-decoration: none;
 font-size: 20px;
 }
 
 .list nav a:hover{
-color: orange;
+color: rgba(153, 136, 189,1);
 }
 
 #spaceship {
@@ -87,7 +88,7 @@ color: orange;
 }
 
 #spaceshipwrapper {
-height: 1200px;
+height: 700px;
 }
 
 .spaceshipbackground {
@@ -115,101 +116,6 @@ height: 1200px;
 #header img {
   height: 40px;
 }
-
-#navigation nav {
-  position: absolute;
-  /*font-family: Baloo;*/
-  font-family: 'Press Start 2P', cursive;
-  display: none;
-}
-
-.nav-right {
-  position: absolute;
-  left: 11%;
-  margin-top: -565px
-}
-
-.nav-left {
-  position: absolute;
-  right: 11%;
-  margin-top: 0;
-}
-
-#navigation ul {
-  padding: 28px;
-}
-
-.nav-right a, .nav-left a {
-  /*font-size: 55px;*/
-  font-size: 35px;
-  text-decoration: none; 
-  color: white;
-}
-
-.nav-right a:hover, .nav-left a:hover {
-  color: darkgrey;
-}
-
-#navigation .A {
-    transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-}
-
-#navigation .B {
-    transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-}
-#navigation .SC {
-    transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-}
-
-#navigation .D {
-    transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-}
-
-#navigation .E {
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    -moz-transform: rotate(-30deg);
-}
-
-#navigation .F {
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    -moz-transform: rotate(-30deg);
-}
-
-#navigation .G {
-    transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-}
-
-#navigation .SH {
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    -moz-transform: rotate(-30deg);
-}
-
-#navigation .I {
-    transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-}
-
-#navigation .J {
-    transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-}
-
-
 
 
 /** {
@@ -297,7 +203,7 @@ html, body {
 
 #slider {
   position: relative;
-  left: 35%;
+  left: 10%;
   overflow: hidden;
   border-radius: 4px;
 }
@@ -321,14 +227,6 @@ html, body {
   background: #ccc;
   text-align: center;
   line-height: 300px;
-}
-
-#slider .vertical {
-  width: 100%;
-}
-
-#slider .horizontal {
-  height: 100%;
 }
 
 a.control_prev, a.control_next {
@@ -364,9 +262,10 @@ a.control_next {
 
 .slider_option {
   position: relative;
-  margin: 10px auto;
-  width: 160px;
+  left: 50%;
+  margin-top: 10px;
   font-size: 18px;
+  color: rgba(153, 136, 189,0.9);
 }
 
 #columnwrapper {
@@ -378,16 +277,19 @@ margin-left: 5%;
   display: block;
   width: 30%;
   color: red;
-  background-color: rgba(255,255,255,0.2);
-  height: 500px;
+  background-color: rgba(125, 124, 130, 0.39);
   margin: 0 10px;
+  height: 520px;
 }
 
 .column h2{
   font-size: 25px;
-  margin: 0;
+  margin: 10px auto;
   padding: 0 10px;
-  color: orange;
+  color: rgba(153, 136, 189,0.9);
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0;
 }
 
 .column img{
@@ -398,42 +300,71 @@ margin-left: 5%;
   font-size: 15px;
   padding: 0 10px;
   color: white;
+
 }
 
 .column a{
   font-size: 15px;
   float:right;
+  position: relative;
+  bottom: 5px;
+  right: 10px;
+  color: rgba(151, 163, 246, 0.99);
+  text-decoration: none;
+}
+
+.column a:hover{
+  color: rgba(151, 163, 246, 0.49);
 }
 
 #wrapper-portfolio {
   clear: left;
   background-color: rgba(0,0,0,0.3);
-  padding-top: 50px;
-  height: 700px;
+  padding-top: 100px;
+  height: 670px;
 }
 
 #info {
-  color: red;
+  color: white;
   margin-left: 10%;
   float: left;
+  height: 500px;
+  background-color: rgba(93, 93, 95, 0.49);
 } 
+
+#info img {
+  float: left;
+  padding: 10px 15px 3px 15px;
+}
+
+#info p {
+  padding: 0 13px;
+}
 #wrapper-portfolio h3 {
-  color: red;
+  color: rgba(151, 163, 246, 0.99);
   font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0;
 }
 
 #wrapper-portfolio p {
-  color: red;
+  color: rgba(255,255,255,0.8);
 }
 
+#info {
+  width: 30%;
+}
+ 
 #footer {
-  background-color: black;
-  color: red;
-  height: 100px;
-  clear: left;
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(151, 163, 246, 0.99);
+  height: 220px;
+  clear: both;
   width: 100%;
   position: relative;
-  margin-bottom: 0;
+  bottom: 0;
 }
 /*#slidernav {
   position: absolute;
@@ -458,6 +389,34 @@ margin-left: 5%;
   color: red;
 }*/
 
+#footer h2 {
+  color: rgba(151, 163, 246, 0.99);
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+#footer nav {
+  position: relative;
+  margin-bottom: 0;
+}
+
+#footer ul {
+  display: inline-block;
+}
+
+#footer a {
+  color: rgba(151, 163, 246, 0.99);
+  font-size: 27px;
+  text-decoration: none;
+
+}
+#footer a:hover {
+  color: rgba(151, 163, 246, 0.79);
+}
+
 .element {
 color: limegreen;
 font-family: 'Press Start 2P', cursive;
@@ -468,3 +427,7 @@ margin-top: 20%;
 margin-left: 35%;
 }
 
+.header-offset {
+    background: red;
+    font-size: 30px;
+  }

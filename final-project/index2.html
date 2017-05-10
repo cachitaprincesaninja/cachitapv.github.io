@@ -1,10 +1,41 @@
 <DOCTYPE html>
 <head>
-<link rel="stylesheet" href="style2.css">
 <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" href="style2.css">
 <title>machina.</title>
 </head>
 <body> 
+
+<div id="header">
+    <div id="links">
+      <h1>machina.<img src="https://media.giphy.com/media/rgF2gZDIoNbpe/giphy.gif">
+      <div class="list">
+      <nav>
+      <ul><a href="#">Home</a></ul>
+      <ul><a href="">About</a></ul>
+      <ul><a href="#">Categories</a></ul>
+      <ul><a href="#">Portfolio</a></ul>
+      <ul><a href="#">Contact</a></ul>
+    </nav>
+    </div></h1>
+        </div>
+
+        <div class="headernavvar">
+        <a href="https://www.instagram.com/cachitaparedesvasquez">
+<img alt="instagram" src="http://png-1.findicons.com/files/icons/2779/simple_icons/1024/instagram.png"></a>
+        <img src="http://www.inasan.ru/wp-content/themes/giornalismo/images/mobile-nav-icon.png" class="toggle">
+        </div>
+        </div>
+
+
+
+<div class="opener">
+<div class="element"></div>
+</div>
+
+<div id="wrapper">
       <div id="navigation">
     <nav class="nav-left">
       <ul class="F"><a href="#">Link F</a></ul>
@@ -14,9 +45,12 @@
       <ul class="J"><a href="#">Link J</a></ul>
     </nav>
 
-    <div id="spaceship">
+<div id="spaceshipwrapper"> 
+<div class="spaceshipbackground"></div>   
+  <div id="spaceship">
         <img src="https://img.itch.zone/aW1hZ2UvNTk0MjAvMjY3MzY5LnBuZw==/original/BAOyZX.png">
-    </div>
+  </div>
+</div>
 
     <div id="navigation">
     <nav class="nav-right">
@@ -27,14 +61,100 @@
       <ul class="E"><a href="#">Link E</a></ul>
     </nav>
     </div>
+    </div>
+    </div>
 
-    <div class="stars"></div>
+    <div id="columnwrapper">
+  <div class="column">
+  <h2>Shopping</h2>
+  <img src="http://68.media.tumblr.com/2c90904ee035c02b98f4055335444477/tumblr_npdbw73lVt1urf835o1_400.gif">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nobis fugit nisi, recusandae beatae et aspernatur odio dolore tenetur quae fugiat eos reprehenderit velit officia quisquam quos, voluptate excepturi eum.</p>
+  <a href="#">Continue</a>
+  </div>
+  <div class="column">
+  <h2>Runway</h2>
+  <img src="http://68.media.tumblr.com/30068adbec9d3f05530b93925cf328a6/tumblr_npdaffMdUp1urf835o1_1280.png">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eligendi, dolorum cumque voluptatibus distinctio, necessitatibus placeat excepturi accusantium libero perferendis delectus voluptatum quas, pariatur ex similique adipisci beatae voluptatem obcaecati?</p>
+  <a href="#">Continue</a>
+  </div>
+  <div class="column">
+  <h2>Trends</h2>
+  <img src="http://68.media.tumblr.com/8d61ac1ef70365a627f45e508dc21d92/tumblr_npdffdg0yf1urf835o1_540.jpg"><img src="http://68.media.tumblr.com/8553db203b1c5799ec85a8f984c153be/tumblr_npdffdg0yf1urf835o3_1280.jpg">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quibusdam nesciunt magnam, praesentium in accusamus numquam voluptatem, tenetur tempore, minima itaque autem eveniet cumque quae suscipit maiores temporibus eos dolorem.</p>
+  <a href="#">Continue</a>
+  </div>
+
+</div>
+
+<div  id="wrapper-portfolio">
+<div id="info"><h3>cachiu</h3>
+<p>hola jajajajaja</p>
+</div>
+    <div id="slider">
+  <a href="#" class="control_next">>></a>
+  <a href="#" class="control_prev"><<</a>
+  <ul>
+    <li style="vertical"><img src="http://68.media.tumblr.com/e7993bf3b6d8fab82174ef064b90f9ed/tumblr_onwmsnxtZL1urf835o2_540.jpg"></li>
+    <li style="vertical"><img src="http://i.imgur.com/LBvlKcS.jpg"></li>
+    <li style="horizontal"><img src="http://68.media.tumblr.com/17064dd9f7e25b22295443ca641d8521/tumblr_nphmbew8WB1urf835o3_1280.jpg"></li>
+    <li style="horizontal"><img src="http://68.media.tumblr.com/7d184bf09a5752fce79d41b7014c76c3/tumblr_nplx1fpPXe1urf835o2_1280.jpg"></li>
+  </ul>  
+</div>
+
+<div class="slider_option">
+  <input type="checkbox" id="checkbox">
+  <label for="checkbox">Autoplay Slider</label>
+</div> 
+</div>
+
+<div id="footer">
+  <h2>Footer</h2>
+  </div>
+
+        <div class="stars"></div>
 
     <div class="twinklisng"></div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
+    <script src="typed.js"></script>
     <script src="jqfloat/jqfloat.js" type="text/javascript"></script>
     <script src="script.js" type="text/javascript"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.element', {
+        strings: ["beep beep.", "Hi there :)."],
+        typeSpeed: 50
+      });
+  });
+</script>
+<script type="text/javascript">
+(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 700) {
+                $('#header, #spaceship').fadeIn(300);
+            } else {
+                $('#header,#spaceship').fadeOut(700);
+            }
+        });
+    });
+})(jQuery);
+</script>
+
+<script type="text/javascript">
+(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 850) {
+                $('.list').fadeOut(700);
+            } else {
+                $('.list').fadeIn(700);
+            }
+        });
+    });
+})(jQuery);
+</script>
 </body>

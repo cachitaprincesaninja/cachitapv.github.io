@@ -109,7 +109,7 @@ height: 700px;
 #spaceship img {
   width: 95%;
   margin-left: 185px;
-  margin-top: -30px;
+  margin-top: -20px;
 }
  
 
@@ -427,7 +427,7 @@ margin-top: 20%;
 margin-left: 35%;
 }
 
-.header-offset {
+/*.header-offset {
     background: red;
     font-size: 30px;
-  }
+  }*/

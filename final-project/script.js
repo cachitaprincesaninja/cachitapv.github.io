@@ -37,7 +37,7 @@ $(document).ready(function () {
 })
 
 $('.toggle').click(function () {
-  $('#navigation').slideToggle();
+  $('#spaceship').slideToggle();
 })
 
 //links
@@ -93,13 +93,13 @@ jQuery(document).ready(function ($) {
 });    
 
 //header resize on scroll
-$(window).scroll(function () {
-    var offset = $(window).scrollTop();
+//$(window).scroll(function () {
+  //  var offset = $(window).scrollTop();
 
-    if (offset > 150) {
-      $('#links').addClass('header-offset')
-    } else {
-      $('#links').removeClass('header-offset')
-    }
-  })
+    //if (offset > 150) {
+      //$('#links').addClass('header-offset')
+    //} else {
+      //$('#links').removeClass('header-offset')
+    //}
+  //});
 

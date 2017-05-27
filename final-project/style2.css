@@ -10,7 +10,7 @@ body {
  position: relative;
  background-color: rgba(0,0,0,0.3);
  height: 800px;
-}
+} 
 
 .opener {
 color: limegreen;
@@ -27,7 +27,12 @@ width: 100%;
   display: none;
 }
 
-#links h1 {
+/*.small {
+  height: 20px;
+}
+*/
+
+#header .large {
   color: white;
   z-index: 15;
   text-align: left;

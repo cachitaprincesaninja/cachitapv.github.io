@@ -93,13 +93,13 @@ jQuery(document).ready(function ($) {
 });    
 
 //header resize on scroll
-//$(window).scroll(function () {
-  //  var offset = $(window).scrollTop();
+$(document).on("scroll", function() {
 
-    //if (offset > 150) {
-      //$('#links').addClass('header-offset')
-    //} else {
-      //$('#links').removeClass('header-offset')
-    //}
-  //});
+  if($(document).scrollTop()>100) {
+    $("#header").removeClass("large").addClass("small");
+  } else {
+    $("#header").removeClass("small").addClass("large");
+  }
+  
+});
 

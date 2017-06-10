@@ -1,0 +1,127 @@
+<DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<title>machina.</title>
+</head>
+<body> 
+ 
+<div id="header">
+      <div class="vertical-links">
+      <h1>titlehere.<img src="https://media.giphy.com/media/rgF2gZDIoNbpe/giphy.gif"></h1>
+      <nav>
+      <ul><a href="#">Home</a></ul>
+      <ul><a href="">About</a></ul>
+      <ul><a href="#">Categories</a></ul>
+      <ul><a href="#">Portfolio</a></ul>
+      <ul><a href="#">Contact</a></ul>
+    </nav>
+    </div>
+      
+
+        <div class="headernavvar">
+        <a href="https://github.com/cachitapv">
+<img alt="GitHub" src="http://i.imgur.com/e0RAk33.png"></a>
+        <a href="https://twitter.com/cachitapv">
+<img alt="Twitter" src="http://www.iconsdb.com/icons/download/white/twitter-512.gif"></a>
+        <a href="https://www.instagram.com/cachitaparedesvasquez">
+<img alt="instagram" src="http://png-1.findicons.com/files/icons/2779/simple_icons/1024/instagram.png"></a>
+        <img src="http://www.clipartbest.com/cliparts/LiK/9pq/LiK9pq4ia.png" class="toggle">
+        </div>
+        </div>
+
+
+
+<div class="opener">
+<div class="element"></div>
+</div>
+
+<div id="wrapper">
+
+<div id="spaceshipwrapper"> 
+<div class="spaceshipbackground"></div>   
+  <div id="spaceship">
+        <img src="https://img.itch.zone/aW1hZ2UvNTk0MjAvMjY3MzY5LnBuZw==/original/BAOyZX.png">
+  </div>
+</div>
+
+    </div>
+    
+
+    <div id="columnwrapper">
+  <div class="column">
+  <img src="http://68.media.tumblr.com/2c90904ee035c02b98f4055335444477/tumblr_npdbw73lVt1urf835o1_400.gif">
+  <h2>Shopping</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nobis fugit nisi, recusandae beatae et aspernatur odio dolore tenetur quae fugiat eos reprehenderit velit officia quisquam quos, voluptate excepturi eum.</p><br>
+  <a href="#">Read more...</a>
+  </div>
+  <div class="column">
+  <img src="http://68.media.tumblr.com/30068adbec9d3f05530b93925cf328a6/tumblr_npdaffMdUp1urf835o1_1280.png">
+  <h2>Runway</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eligendi, dolorum cumque voluptatibus distinctio, necessitatibus placeat excepturi accusantium libero perferendis delectus voluptatum quas, pariatur ex similique adipisci beatae voluptatem obcaecati?</p><br><br>
+  <a href="#">Read more...</a>
+  </div>
+  <div class="column">
+  <img src="http://68.media.tumblr.com/8d61ac1ef70365a627f45e508dc21d92/tumblr_npdffdg0yf1urf835o1_540.jpg"><img src="http://68.media.tumblr.com/8553db203b1c5799ec85a8f984c153be/tumblr_npdffdg0yf1urf835o3_1280.jpg">
+  <h2>Trends</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quibusdam nesciunt magnam, praesentium in accusamus numquam voluptatem, tenetur tempore, minima itaque autem eveniet cumque quae suscipit maiores temporibus eos dolorem.</p>
+  <a href="#">Read more...</a>
+  </div>
+
+</div>
+
+<div  id="wrapper-portfolio">
+<div id="info"><h3>cachiu</h3>
+<img src="http://i.imgur.com/wy6MKU1.gif" height="100px"/>
+<p>hi im cachita and im the worst at writting so lorem ipsum is gonna save my life. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, ea, quisquam nulla cumque aspernatur fuga repellendus assumenda culpa ut exercitationem beatae cupiditate voluptatibus obcaecati eum sint. Et nam perspiciatis, molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam culpa, nemo quas dolorum asperiores. Nostrum fugiat tempore inventore molestias odio, impedit obcaecati qui repudiandae doloremque, at autem hic a enim.</p>
+</div>
+
+    <div class="stars"></div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="typed.js"></script>
+    <script src="jqfloat/jqfloat.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.element', {
+        strings: ["beep beep.", "Hi there :)."],
+        typeSpeed: 50
+      });
+  });
+</script>
+<script type="text/javascript">
+(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 700) {
+                $('#header, #spaceship').fadeIn(300);
+            } else {
+                $('#header,#spaceship').fadeOut(700);
+            }
+        });
+    });
+})(jQuery);
+</script>
+
+<script type="text/javascript">
+(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 850) {
+                $('.vertical-links nav').fadeOut(700);
+            } else {
+                $('.vertical-links nav').fadeIn(700);
+            }
+        });
+    });
+})(jQuery);
+</script>
+
+</body>

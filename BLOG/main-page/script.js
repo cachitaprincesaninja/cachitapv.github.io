@@ -24,12 +24,3 @@ $('.toggle').click(function () {
 
 
 //header resize on scroll (need to work on this)
-         
-    $(document).ready(function(){                                              
-            if($(document).scrollTop()>900) {
-    $("h1").removeClass("large").addClass("small");
-  } else {
-    $("h1").removeClass("small").addClass("large");
-  }        });
-
-

@@ -27,25 +27,38 @@ width: 100%;
   display: none;
 }
 
-.vertical-links {
+#header .large {
   color: white;
   z-index: 15;
   text-align: left;
   background: rgba(0,0,0,0.5);
-  height: 120px;
-  font-size: 23px;
-  padding-top: 30px;
+  height: 90px;
+  font-size: 45px;
+  padding-top: 60px;
   position: fixed;
   padding-left: 10%;
   width: 100%;
   font-family: 'Press Start 2P', cursive;
   border-style: solid;
   border-width: 0 0 1px 0;
-  margin: 0;
+  margin: 0px 0 20px 0;
 }
 
-.horizontal-links {
+#header .small {
   color: red;
+  z-index: 15;
+  text-align: left;
+  background: rgba(0,0,0,0.5);
+  height: 90px;
+  font-size: 45px;
+  padding-top: 60px;
+  position: fixed;
+  padding-left: 10%;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  margin: 0px 0 20px 0;
 }
 
 .headernavvar {
@@ -64,21 +77,21 @@ position: fixed;
 z-index: 1000;
 }
 
-.vertical-links nav {
-margin-top: 95px;
+.list nav {
+margin-top: 100px;
 }
 
-.vertical-links nav ul{
-padding: 18px;
+.list nav ul{
+padding: 8px;
 }
 
-.vertical-links nav a{
+.list nav a{
 color: rgba(153, 136, 189,0.8);
 text-decoration: none;
 font-size: 23px;
 }
 
-.vertical-links nav a:hover{
+.list nav a:hover{
 color: rgba(153, 136, 189,1);
 }
 
@@ -121,6 +134,41 @@ height: 700px;
   height: 40px;
 }
 
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
 .stars, .twinkling {
   position:absolute;
   top:0;
@@ -137,15 +185,21 @@ height: 700px;
   z-index:-2;
 }
 
-#columnwrapper {
-  height: 590px;
-  margin-left: 1%;
+.twinkling{
+  background:rgba(0,0,0,0) url(sources360/images/twinkling.png) repeat top center;
+  z-index:-1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
 }
 
 .column {
   float: left;
   display: block;
-  width: 31%;
+  width: 30%;
   color: red;
   background-color: rgba(125, 124, 130, 0.39);
   margin: 0 10px;
@@ -164,10 +218,6 @@ height: 700px;
 
 .column img{
   width: 100%;
-}
-
-.column img:hover{
-  transparency: 19%;
 }
 
 .column p{
@@ -229,6 +279,44 @@ height: 700px;
 
 #info {
   width: 30%;
+}
+ 
+#footer {
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(151, 163, 246, 0.99);
+  height: 100px;
+  clear: both;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+#footer h2 {
+  color: rgba(151, 163, 246, 0.99);
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+#footer nav {
+  position: relative;
+  margin-bottom: 0;
+}
+
+#footer ul {
+  display: inline-block;
+}
+
+#footer a {
+  color: rgba(151, 163, 246, 0.99);
+  font-size: 27px;
+  text-decoration: none;
+
+}
+#footer a:hover {
+  color: rgba(151, 163, 246, 0.79);
 }
 
 .element {

@@ -3,23 +3,24 @@
 <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="reset.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
 <title>machina.</title>
 </head>
 <body> 
  
 <div id="header">
-      <div class="vertical-links">
-      <h1>titlehere.<img src="https://media.giphy.com/media/rgF2gZDIoNbpe/giphy.gif"></h1>
+    <div id="links">
+      <h1 class="large">machina.<img src="https://media.giphy.com/media/rgF2gZDIoNbpe/giphy.gif">
+      <div class="list">
       <nav>
-      <ul><a href="#">Home</a></ul>
+      <ul><a href="https://cachitapv.github.io/final-project/index2.html">Home</a></ul>
       <ul><a href="">About</a></ul>
       <ul><a href="#">Categories</a></ul>
       <ul><a href="#">Portfolio</a></ul>
       <ul><a href="#">Contact</a></ul>
     </nav>
-    </div>
-      
+    </div></h1>
+        </div>
 
         <div class="headernavvar">
         <a href="https://github.com/cachitapv">
@@ -78,8 +79,19 @@
 <p>hi im cachita and im the worst at writting so lorem ipsum is gonna save my life. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, ea, quisquam nulla cumque aspernatur fuga repellendus assumenda culpa ut exercitationem beatae cupiditate voluptatibus obcaecati eum sint. Et nam perspiciatis, molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam culpa, nemo quas dolorum asperiores. Nostrum fugiat tempore inventore molestias odio, impedit obcaecati qui repudiandae doloremque, at autem hic a enim.</p>
 </div>
 
-    <div class="stars"></div>
+<div id="footer">
+ <nav>
+      <ul><a href="#">Home</a></ul>
+      <ul><a href="">About</a></ul>
+      <ul><a href="#">Categories</a></ul>
+      <ul><a href="#">Portfolio</a></ul>
+      <ul><a href="#">Contact</a></ul>
+    </nav>
+  </div>
 
+        <div class="stars"></div>
+
+    <div class="twinklisng"></div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
@@ -115,13 +127,12 @@
     $(document).ready(function(){                    
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > 850) {
-                $('.vertical-links nav').fadeOut(700);
+                $('.list').fadeOut(700);
             } else {
-                $('.vertical-links nav').fadeIn(700);
+                $('.list').fadeIn(700);
             }
         });
     });
 })(jQuery);
 </script>
-
 </body>

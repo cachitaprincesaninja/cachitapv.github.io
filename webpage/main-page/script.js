@@ -10,7 +10,7 @@
 $(document).ready(function() {
     $('#spaceship').jqFloat({
     width: 2,
-        height: 30,
+        height: 80,
         speed: 900
       })
 });

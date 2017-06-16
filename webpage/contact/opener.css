@@ -1,0 +1,97 @@
+body {
+  background: url("http://i.imgur.com/PQVitmm.gif");*/
+}
+
+#form {
+  background-color: rgba(250,250,250,0.3);
+  width: 639px;
+  margin:0 auto;
+  -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+    margin-top: 20px;
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    width:459px;
+    margin:0 auto;
+}
+
+input {
+  height:27px;
+}
+
+/* Style the text boxes */
+input, textarea {
+  width:439px;
+  background:#efefef;
+  border:1px solid #dedede;
+  padding:10px;
+  margin-top:3px;
+  font-size:0.9em;
+  color:#3a3a3a;
+}
+
+textarea {
+  height:163px;
+  background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+input, textarea {
+    width:439px;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background:url(images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+  #submit:hover {
+      opacity:.9;
+  }
+
+  header {
+  color: black;
+  text-align: left;
+  background-color: rgba(250,250,250,0.5);
+  height: 90px;
+  padding-top: 30px;
+  padding-left: 10%;
+  font-family: 'Press Start 2P', cursive;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  margin: 0px 0 20px 40px;
+  float: left;
+  line-height: 34px;
+  width: 439px;
+}

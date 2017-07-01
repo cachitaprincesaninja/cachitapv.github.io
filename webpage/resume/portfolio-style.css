@@ -76,6 +76,17 @@ body {
   line-height: 20px;
 }
 
+@media (max-width: 1000px) {
+
+#wrapper {
+  width: 90%;
+}
+
+#header {
+  width: 80%;
+}
+}
+
 ul li a{
     font-size: 13px;
 }

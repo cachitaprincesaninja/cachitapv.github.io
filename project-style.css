@@ -151,6 +151,22 @@ p {
   z-index: 4;
 }
 
+.picture2 {
+  background-color: rgba(250,250,250,0.5);
+  width: 70%;
+  overflow: hidden;
+  margin-left: 15%;
+  float: left;
+  display: inline-block;
+}
+
+.picture2 img {
+  width: 48%;
+  display: inline-block;
+  z-index: 4;
+  float: left;
+}
+
 
 .picture p {
   z-index: 1;

@@ -123,6 +123,14 @@ h3 {
   padding: 10px 0 5px 0;
 }
 
+.achievements {
+  margin-left: 30px;
+}
+
+.achievements h3 {
+  font-size: 15px;
+}
+
 #header img {
   height: 40px;
   margin: 0;

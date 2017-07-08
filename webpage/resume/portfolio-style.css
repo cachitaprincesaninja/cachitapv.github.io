@@ -152,6 +152,12 @@ p {
   clear:both;
 }
 
+.line-height {
+  line-height: 15px;
+  font-size: 15px;
+  font-family: arial;
+  border: none;
+}
 
 ul {
     width: 100%; 

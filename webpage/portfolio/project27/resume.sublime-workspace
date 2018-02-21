@@ -1,0 +1,576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bacgroun",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"obje",
+				"object-fit"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"margint",
+				"margin-bottom"
+			],
+			[
+				"section",
+				"section-a"
+			],
+			[
+				"MARGIN",
+				"margin-left"
+			],
+			[
+				"se",
+				"section-a"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"ini",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"C",
+				"C"
+			],
+			[
+				"a",
+				"A"
+			],
+			[
+				"n",
+				"navigation"
+			],
+			[
+				"positio",
+				"position"
+			],
+			[
+				"neW",
+				"newEntry"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"new",
+				"newEntry"
+			],
+			[
+				"newe",
+				"newestEntry"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"E",
+				"entries"
+			],
+			[
+				"appen",
+				"appendItem"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"drinks",
+				"drinksLeft"
+			],
+			[
+				"num",
+				"numPerDay"
+			],
+			[
+				"drink",
+				"drinksPerDay"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ri",
+				"right-column"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"foo",
+				"footer-links"
+			],
+			[
+				"fash",
+				"fashion_photo2"
+			],
+			[
+				"fashio",
+				"fashion_photo"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"ali",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax",
+				"Set Syntax: Java"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 266.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/resume/portfolio.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/CodeAcademy/HTML/Dec28.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/index.html",
+		"/Users/Cachi/Documents/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project15/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project10/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project17/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project16/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project13/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project0/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project11/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project12/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project14/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project9/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project7/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project8/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project6/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project5/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project4/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project3/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project-style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project2/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/project1/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/contact/opener.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/resume/portfolio-style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/resume-style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/contact/opener.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/contact/contact.php",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project14/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project12/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project11/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project13/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project10/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project9/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project7/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project8/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project5/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project6/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project4/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project1/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project2/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project3/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project-style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project0/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project15/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project16/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project17/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/project18/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/resume/portfolio-script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/main-page/script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/portfolio/resume-script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/webpage/main-page/index2.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/BLOG/reset.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/resume-script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/resume-style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/hi.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/hi-style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/hi-script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/wookmark.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/tryouts.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/classie.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/portfolio.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/portfolio-style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/resume.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/portfolio-script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/index2.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/style2.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/BLOG/script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/BLOG/style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/BLOG/typed.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/BLOG/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/GA FEWD/final-project/reset.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/style2.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/index2.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/cs50/week 1/hello.c",
+		"/Users/Cachi/Downloads/cachitapv.github.io/cs50/week 1/greedy.c",
+		"/Users/Cachi/Downloads/cachitapv.github.io/cs50/week 1/water.c",
+		"/Users/Cachi/Downloads/cachitapv.github.io/cs50/week 1/mario.c",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/opener.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/responsive-navbar/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/typed.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/animate-css/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/animate-css/css/styles.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/animated-sticky-nav/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/responsive-navbar/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/animated-sticky-nav/css/style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/animated-sticky-nav/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/script2.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/reset.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/flexbox-startup-matchmaker/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/startup-matchmaker-responsive/script.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/startup-matchmaker-responsive/css/main.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/startup-matchmaker-responsive/readme.txt",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/startup-matchmaker-responsive/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/script3.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/list-maker/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/sources360/style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/final-project/style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/index2.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/responsive-news/css/style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/super-school-news/style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/responsive-news/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/super-school-news/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/google-maps-example/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/google-maps-example/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/form-test/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/google-maps-example/css/style.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/raindrops-example/css/styles.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/raindrops-example/js/raindrops.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/light-box-example/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/raindrops-example/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/light-box-example/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/light-box-example/raindrops.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/cash-register/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/cash-register-solution/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/cash-register/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/citi-pix/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/citi-pix/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/class-work/list-maker/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/temp-converter/index.html",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/temp-converter/js/app.js",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/temp-converter/css/styles.css",
+		"/Users/Cachi/Downloads/cachitapv.github.io/home-work/temp-converter/instructions.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/*!\n * classie - class helper functions\n * from bonzo https://github.com/ded/bonzo\n * \n * classie.has( elem, 'my-class' ) -> true/false\n * classie.add( elem, 'my-new-class' )\n * classie.remove( elem, 'my-unwanted-class' )\n * classie.toggle( elem, 'my-class' )\n */\n\n/*jshint browser: true, strict: true, undef: true */\n/*global define: false */\n\n( function( window ) {\n\n'use strict';\n\n// class helper functions from bonzo https://github.com/ded/bonzo\n\nfunction classReg( className ) {\n  return new RegExp(\"(^|\\\\s+)\" + className + \"(\\\\s+|$)\");\n}\n\n// classList support for class management\n// altho to be fair, the api sucks because it won't accept multiple classes at once\nvar hasClass, addClass, removeClass;\n\nif ( 'classList' in document.documentElement ) {\n  hasClass = function( elem, c ) {\n    return elem.classList.contains( c );\n  };\n  addClass = function( elem, c ) {\n    elem.classList.add( c );\n  };\n  removeClass = function( elem, c ) {\n    elem.classList.remove( c );\n  };\n}\nelse {\n  hasClass = function( elem, c ) {\n    return classReg( c ).test( elem.className );\n  };\n  addClass = function( elem, c ) {\n    if ( !hasClass( elem, c ) ) {\n      elem.className = elem.className + ' ' + c;\n    }\n  };\n  removeClass = function( elem, c ) {\n    elem.className = elem.className.replace( classReg( c ), ' ' );\n  };\n}\n\nfunction toggleClass( elem, c ) {\n  var fn = hasClass( elem, c ) ? removeClass : addClass;\n  fn( elem, c );\n}\n\nvar classie = {\n  // full names\n  hasClass: hasClass,\n  addClass: addClass,\n  removeClass: removeClass,\n  toggleClass: toggleClass,\n  // short names\n  has: hasClass,\n  add: addClass,\n  remove: removeClass,\n  toggle: toggleClass\n};\n\n// transport\nif ( typeof define === 'function' && define.amd ) {\n  // AMD\n  define( classie );\n} else {\n  // browser global\n  window.classie = classie;\n}\n\n})( window );",
+			"font",
+			"header",
+			"margin",
+			"martin",
+			"LINK",
+			"todo",
+			"bottom",
+			"slider",
+			"CHECK",
+			"z-",
+			"cursor",
+			"CURSOR",
+			"     \n",
+			"sophia",
+			"Celcius",
+			"h1",
+			"<p>",
+			"<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "resume.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ipsum",
+				"loren ipsum.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
